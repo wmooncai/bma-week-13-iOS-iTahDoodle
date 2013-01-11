@@ -8,7 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WAMSAppDelegate : UIResponder <UIApplicationDelegate>
+NSString *docPath(void);
+
+@interface WAMSAppDelegate : UIResponder <UIApplicationDelegate, UITableViewDataSource>
+{
+    UITableView *taskTable;
+    UITextField *taskField;
+    UIButton *insertButton;
+    
+    NSMutableArray *tasks;
+}
+
+- (void)addTask:(id)sender;
 
 @property (strong, nonatomic) UIWindow *window;
 
