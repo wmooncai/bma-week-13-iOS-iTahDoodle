@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E032F63169F9ABB00BEFB6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E032F62169F9ABB00BEFB6A /* UIKit.framework */; };
+		3E032F65169F9ABB00BEFB6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E032F64169F9ABB00BEFB6A /* Foundation.framework */; };
+		3E032F67169F9ABB00BEFB6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E032F66169F9ABB00BEFB6A /* CoreGraphics.framework */; };
+		3E032F6D169F9ABB00BEFB6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E032F6B169F9ABB00BEFB6A /* InfoPlist.strings */; };
+		3E032F6F169F9ABB00BEFB6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E032F6E169F9ABB00BEFB6A /* main.m */; };
+		3E032F73169F9ABB00BEFB6A /* WAMSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E032F72169F9ABB00BEFB6A /* WAMSAppDelegate.m */; };
+		3E032F75169F9ABB00BEFB6A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E032F74169F9ABB00BEFB6A /* Default.png */; };
+		3E032F77169F9ABB00BEFB6A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E032F76169F9ABB00BEFB6A /* Default@2x.png */; };
+		3E032F79169F9ABB00BEFB6A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E032F78169F9ABB00BEFB6A /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E032F5E169F9ABB00BEFB6A /* bma-week-13-iOS-iTahDoodle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bma-week-13-iOS-iTahDoodle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E032F62169F9ABB00BEFB6A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3E032F64169F9ABB00BEFB6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3E032F66169F9ABB00BEFB6A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3E032F6A169F9ABB00BEFB6A /* bma-week-13-iOS-iTahDoodle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bma-week-13-iOS-iTahDoodle-Info.plist"; sourceTree = "<group>"; };
+		3E032F6C169F9ABB00BEFB6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E032F6E169F9ABB00BEFB6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E032F70169F9ABB00BEFB6A /* bma-week-13-iOS-iTahDoodle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bma-week-13-iOS-iTahDoodle-Prefix.pch"; sourceTree = "<group>"; };
+		3E032F71169F9ABB00BEFB6A /* WAMSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAMSAppDelegate.h; sourceTree = "<group>"; };
+		3E032F72169F9ABB00BEFB6A /* WAMSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAMSAppDelegate.m; sourceTree = "<group>"; };
+		3E032F74169F9ABB00BEFB6A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3E032F76169F9ABB00BEFB6A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3E032F78169F9ABB00BEFB6A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E032F5B169F9ABB00BEFB6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E032F63169F9ABB00BEFB6A /* UIKit.framework in Frameworks */,
+				3E032F65169F9ABB00BEFB6A /* Foundation.framework in Frameworks */,
+				3E032F67169F9ABB00BEFB6A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E032F53169F9ABB00BEFB6A = {
+			isa = PBXGroup;
+			children = (
+				3E032F68169F9ABB00BEFB6A /* bma-week-13-iOS-iTahDoodle */,
+				3E032F61169F9ABB00BEFB6A /* Frameworks */,
+				3E032F5F169F9ABB00BEFB6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E032F5F169F9ABB00BEFB6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E032F5E169F9ABB00BEFB6A /* bma-week-13-iOS-iTahDoodle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E032F61169F9ABB00BEFB6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E032F62169F9ABB00BEFB6A /* UIKit.framework */,
+				3E032F64169F9ABB00BEFB6A /* Foundation.framework */,
+				3E032F66169F9ABB00BEFB6A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E032F68169F9ABB00BEFB6A /* bma-week-13-iOS-iTahDoodle */ = {
+			isa = PBXGroup;
+			children = (
+				3E032F71169F9ABB00BEFB6A /* WAMSAppDelegate.h */,
+				3E032F72169F9ABB00BEFB6A /* WAMSAppDelegate.m */,
+				3E032F69169F9ABB00BEFB6A /* Supporting Files */,
+			);
+			path = "bma-week-13-iOS-iTahDoodle";
+			sourceTree = "<group>";
+		};
+		3E032F69169F9ABB00BEFB6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E032F6A169F9ABB00BEFB6A /* bma-week-13-iOS-iTahDoodle-Info.plist */,
+				3E032F6B169F9ABB00BEFB6A /* InfoPlist.strings */,
+				3E032F6E169F9ABB00BEFB6A /* main.m */,
+				3E032F70169F9ABB00BEFB6A /* bma-week-13-iOS-iTahDoodle-Prefix.pch */,
+				3E032F74169F9ABB00BEFB6A /* Default.png */,
+				3E032F76169F9ABB00BEFB6A /* Default@2x.png */,
+				3E032F78169F9ABB00BEFB6A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E032F5D169F9ABB00BEFB6A /* bma-week-13-iOS-iTahDoodle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E032F7C169F9ABB00BEFB6A /* Build configuration list for PBXNativeTarget "bma-week-13-iOS-iTahDoodle" */;
+			buildPhases = (
+				3E032F5A169F9ABB00BEFB6A /* Sources */,
+				3E032F5B169F9ABB00BEFB6A /* Frameworks */,
+				3E032F5C169F9ABB00BEFB6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bma-week-13-iOS-iTahDoodle";
+			productName = "bma-week-13-iOS-iTahDoodle";
+			productReference = 3E032F5E169F9ABB00BEFB6A /* bma-week-13-iOS-iTahDoodle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E032F55169F9ABB00BEFB6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WAMS;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = WAMS;
+			};
+			buildConfigurationList = 3E032F58169F9ABB00BEFB6A /* Build configuration list for PBXProject "bma-week-13-iOS-iTahDoodle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3E032F53169F9ABB00BEFB6A;
+			productRefGroup = 3E032F5F169F9ABB00BEFB6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E032F5D169F9ABB00BEFB6A /* bma-week-13-iOS-iTahDoodle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E032F5C169F9ABB00BEFB6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E032F6D169F9ABB00BEFB6A /* InfoPlist.strings in Resources */,
+				3E032F75169F9ABB00BEFB6A /* Default.png in Resources */,
+				3E032F77169F9ABB00BEFB6A /* Default@2x.png in Resources */,
+				3E032F79169F9ABB00BEFB6A /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E032F5A169F9ABB00BEFB6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E032F6F169F9ABB00BEFB6A /* main.m in Sources */,
+				3E032F73169F9ABB00BEFB6A /* WAMSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3E032F6B169F9ABB00BEFB6A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E032F6C169F9ABB00BEFB6A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E032F7A169F9ABB00BEFB6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3E032F7B169F9ABB00BEFB6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E032F7D169F9ABB00BEFB6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bma-week-13-iOS-iTahDoodle/bma-week-13-iOS-iTahDoodle-Prefix.pch";
+				INFOPLIST_FILE = "bma-week-13-iOS-iTahDoodle/bma-week-13-iOS-iTahDoodle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3E032F7E169F9ABB00BEFB6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bma-week-13-iOS-iTahDoodle/bma-week-13-iOS-iTahDoodle-Prefix.pch";
+				INFOPLIST_FILE = "bma-week-13-iOS-iTahDoodle/bma-week-13-iOS-iTahDoodle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E032F58169F9ABB00BEFB6A /* Build configuration list for PBXProject "bma-week-13-iOS-iTahDoodle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E032F7A169F9ABB00BEFB6A /* Debug */,
+				3E032F7B169F9ABB00BEFB6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E032F7C169F9ABB00BEFB6A /* Build configuration list for PBXNativeTarget "bma-week-13-iOS-iTahDoodle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E032F7D169F9ABB00BEFB6A /* Debug */,
+				3E032F7E169F9ABB00BEFB6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E032F55169F9ABB00BEFB6A /* Project object */;
+}
